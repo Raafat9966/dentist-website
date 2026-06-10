@@ -4,28 +4,28 @@ import { useState } from "react";
 
 const FAQS = [
   {
-    question: "How often should I visit the dentist?",
-    answer: "Most patients benefit from a check-up and cleaning every 6 months. Those with gum disease or a higher cavity risk may need to come every 3–4 months. We'll tailor a schedule to your needs.",
+    question: "How often should I have a check-up?",
+    answer: "Most patients benefit from a check-up and professional cleaning every 6 months. If you have gum disease or a higher risk of cavities, we may recommend every 3–4 months. We will tailor a recall schedule to your individual needs.",
+  },
+  {
+    question: "I am afraid of the dentist — can you help?",
+    answer: "Absolutely. Many of our patients feel anxious before their first visit. Dr. Heußinger and the team take as much time as needed, explain every step in advance, and only proceed when you feel comfortable. We can also discuss additional options such as local anaesthesia to make treatment completely pain-free.",
+  },
+  {
+    question: "What does a prophylaxis appointment include?",
+    answer: "A professional prophylaxis session includes removal of plaque and tartar (including below the gumline), polishing of all tooth surfaces, fluoride application where appropriate, and personalised advice on your home oral hygiene routine.",
   },
   {
     question: "Is teeth whitening safe?",
-    answer: "Yes. Professional in-office whitening uses safe, controlled concentrations of hydrogen peroxide. Mild sensitivity for 24–48 hours is normal and temporary. We screen every patient beforehand to ensure suitability.",
+    answer: "Yes. Professional in-office whitening uses controlled concentrations of bleaching agent applied under clinical conditions. Mild tooth sensitivity for 24–48 hours is normal and temporary. We screen every patient beforehand to confirm suitability.",
   },
   {
-    question: "What should I do in a dental emergency?",
-    answer: "Call us immediately at (555) 234-5678. We keep same-day emergency slots every day. For a knocked-out tooth, rinse it gently, keep it moist, and get to us within 30 minutes for the best chance of reimplantation.",
+    question: "Does my health insurance cover treatment?",
+    answer: "We treat both statutory (GKV) and private (PKV) patients. Statutory insurance covers a defined range of treatments; additional or higher-quality options (such as tooth-coloured fillings or certain prosthetics) may incur a co-payment. We always provide a written cost plan before starting, so you know your costs in advance.",
   },
   {
-    question: "Do you accept dental insurance?",
-    answer: "We accept most major insurance plans including Delta Dental, Cigna, Aetna, MetLife, and United Concordia. We'll verify your benefits before treatment and let you know your out-of-pocket costs upfront.",
-  },
-  {
-    question: "How long does an Invisalign treatment take?",
-    answer: "Mild cases can be corrected in 6–12 months; more complex cases typically take 12–18 months. During your free consultation, Dr. Patel will give you a personalised timeline using our 3D imaging technology.",
-  },
-  {
-    question: "Is the booking process secure?",
-    answer: "Yes. All data submitted through our booking form is encrypted in transit and stored securely in compliance with HIPAA regulations. We never share your information without explicit consent.",
+    question: "How do I book an appointment?",
+    answer: "You can book online 24/7 using the booking form on this page, call us at +49 911 999 17 666 during opening hours, or use our Doctolib profile. We confirm every appointment and send a reminder before your visit.",
   },
 ];
 

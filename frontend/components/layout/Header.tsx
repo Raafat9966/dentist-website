@@ -40,7 +40,7 @@ export default function Header() {
               </svg>
             </div>
             <span className={`font-bold text-lg tracking-tight ${isScrolled ? "text-slate-800" : "text-white"}`}>
-              BrightSmile
+              Dr. Heußinger
             </span>
           </Link>
 
@@ -62,12 +62,12 @@ export default function Header() {
           {/* CTA + phone */}
           <div className="hidden lg:flex items-center gap-4">
             <a
-              href="tel:+15552345678"
+              href="tel:+499119991766"
               className={`text-sm font-medium transition-colors ${
                 isScrolled ? "text-slate-600 hover:text-teal-600" : "text-white/90 hover:text-white"
               }`}
             >
-              (555) 234-5678
+              +49 911 999 17 666
             </a>
             <a
               href="#booking"

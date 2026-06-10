@@ -6,7 +6,7 @@ import type { Service } from "@/lib/types";
 
 function formatPrice(cents: number | null): string {
   if (!cents) return "Free consultation";
-  return `From $${(cents / 100).toLocaleString()}`;
+  return `Ab €${(cents / 100).toLocaleString("de-DE")}`;
 }
 
 const SERVICE_ICONS: Record<string, React.ReactNode> = {
@@ -38,6 +38,11 @@ const SERVICE_ICONS: Record<string, React.ReactNode> = {
   alignments: (
     <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
       <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" />
+    </svg>
+  ),
+  cross: (
+    <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
     </svg>
   ),
 };
