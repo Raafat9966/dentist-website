@@ -1,0 +1,26 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/.env
+backend/*.egg-info/
+backend/dist/
+backend/.pytest_cache/
+
+# Node / Next.js (also covered by frontend/.gitignore)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+frontend/.env.local
+frontend/.env*.local
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# Claude Code local settings
+.claude/
+
+# Misc
+.DS_Store
+*.pem
